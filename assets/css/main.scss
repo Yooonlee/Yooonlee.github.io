@@ -107,3 +107,28 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+.publication-image-wrap {
+    position: relative;
+    align-items: flex-start;
+
+    img {
+        width: 100%;
+        max-width: 520px;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+        background: #fff;
+    }
+}
+
+.paper-venue-badge {
+    top: .6rem;
+    left: .6rem;
+    margin: 0;
+    padding: .25rem .65rem;
+    border-radius: .35rem;
+    background-color: #00369f;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .18);
+    font-weight: 700;
+    letter-spacing: .02em;
+    z-index: 1;
+}

@@ -22,8 +22,25 @@ My research interests include multimodal models, video understanding, and token 
 
 # 🔥 News
 
+- **Jun 2026**: Our paper **“Hierarchical Multimodal Memory for Training-Free Video Moment Retrieval”** will appear at **RespMultimodal’26**, a **KDD 2026 Workshop**.
 
 # 📝 Publications
+
+**International**
+
+<div class="paper-box">
+  <div class="paper-box-image publication-image-wrap">
+    <span class="badge paper-venue-badge">KDD 2026</span>
+    <img src="/images/hmma-kdd2026-workshop.png" alt="Architecture overview for Hierarchical Multimodal Memory for Training-Free Video Moment Retrieval">
+  </div>
+  <div class="paper-box-text">
+    <strong>Hierarchical Multimodal Memory for Training-Free Video Moment Retrieval</strong><br>
+    Kyeongyoon Lee, Hongyeob Kim, Sungeun Hong<br>
+    <em>RespMultimodal’26: Responsible Multimodal Foundation Models for Knowledge Discovery, KDD 2026 Workshop</em><br>
+    <a href="/files/publications/hierarchical-multimodal-memory-kdd2026.pdf">[Paper]</a>
+  </div>
+</div>
+
 **Domestic**
 - **GPT and Stable Diffusion-based Reading Activity Service**, KSC 2023  
   SeYun Bae\*, Kyeongyoon Lee\*, JinSu Lee, Hogyun Jeon, Hyunggu Jung (\*equal contribution)
