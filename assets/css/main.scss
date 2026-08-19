@@ -723,7 +723,7 @@ body {
         letter-spacing: -.04em;
     }
 
-    > p:not(.method-name) {
+    > p {
         color: $portfolio-muted;
         font-size: .96rem !important;
         line-height: 1.72;
@@ -746,14 +746,6 @@ body {
     border-radius: 999px;
     background: $portfolio-pale;
     letter-spacing: .04em;
-}
-
-.method-name {
-    margin: 0 0 1.2rem !important;
-    color: $portfolio-blue;
-    font-size: .8rem !important;
-    font-weight: 800;
-    letter-spacing: .12em;
 }
 
 .paper-highlights {
@@ -785,8 +777,19 @@ body {
 }
 
 .paper-authors {
-    margin: 0 0 .4rem !important;
+    margin: 0 0 .85rem !important;
     color: #405370 !important;
+}
+
+.paper-tldr {
+    margin: 0 !important;
+
+    strong {
+        margin-right: .35rem;
+        color: $portfolio-blue;
+        font-size: .72rem;
+        letter-spacing: .06em;
+    }
 }
 
 .paper-link {

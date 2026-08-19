@@ -92,8 +92,8 @@ redirect_from:
             <span class="venue-badge">arXiv</span>
           </div>
           <h3>Deferred Audio Pruning with Local Audio-Visual Dynamics for Omni-LLMs</h3>
-          <p class="method-name">A-PACK</p>
-          <p>A two-stage, training-free framework that preserves information-dense audio before the LLM, compresses video with local audio-visual dynamics, and prunes low-relevance multimodal tokens after query-conditioned interactions emerge.</p>
+          <p class="paper-authors"><strong>Kyeongyoon Lee</strong>, Hongyeob Kim, Youngeun Kim, Sungeun Hong</p>
+          <p class="paper-tldr"><strong>TL;DR</strong> A two-stage, training-free framework that preserves information-dense audio before the LLM, compresses video with local audio-visual dynamics, and prunes low-relevance multimodal tokens after query-conditioned interactions emerge.</p>
           <div class="paper-highlights">
             <span>Up to 78% fewer prefill FLOPs</span>
             <span>Up to 2.21× decoding throughput</span>
@@ -111,7 +111,7 @@ redirect_from:
           </div>
           <h3>Hierarchical Multimodal Memory for Training-Free Video Moment Retrieval</h3>
           <p class="paper-authors"><strong>Kyeongyoon Lee</strong>, Hongyeob Kim, Sungeun Hong</p>
-          <p>RespMultimodal’26: Responsible Multimodal Foundation Models for Knowledge Discovery.</p>
+          <p class="paper-tldr"><strong>TL;DR</strong> Builds reusable hierarchical memory from visual captions and ASR, then uses query-aware proposals and multimodal re-ranking to retrieve precise video moments without training.</p>
           <a class="paper-link" href="{{ '/files/publications/hierarchical-multimodal-memory-kdd2026.pdf' | relative_url }}">Read paper <span aria-hidden="true">↗</span></a>
         </div>
       </article>
