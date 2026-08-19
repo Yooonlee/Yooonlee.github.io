@@ -748,22 +748,6 @@ body {
     letter-spacing: .04em;
 }
 
-.paper-highlights {
-    display: flex;
-    margin-top: 1.1rem;
-    flex-wrap: wrap;
-    gap: .55rem;
-
-    span {
-        padding: .5rem .7rem;
-        color: #31577f;
-        border-radius: 8px;
-        background: #f1f6fc;
-        font-size: .72rem;
-        font-weight: 700;
-    }
-}
-
 .publication-card-secondary {
     grid-template-columns: minmax(330px, .8fr) minmax(0, 1.2fr);
 
