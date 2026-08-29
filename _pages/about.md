@@ -69,11 +69,9 @@ redirect_from:
             <div class="tagline-row"><span class="pub-tagline">🔎 How can language models understand moving sound sources across space and time?</span></div>
             <div class="publication-row">
               <div class="publication-media">
-                <div class="publication-placeholder" role="img" aria-label="Abstract blue audio waveform illustration">
-                  <span>SPATIO</span>
-                  <i></i><i></i><i></i><i></i><i></i>
-                  <span>TEMPORAL AUDIO</span>
-                </div>
+                <a class="publication-image-link" href="https://openreview.net/forum?id=zUbZRx1YeP" target="_blank" rel="noopener noreferrer" aria-label="Open Spatio-Temporal Audio Language Modeling for Dynamic Sound Sources on OpenReview">
+                  <img src="{{ '/images/publications/st-audiolm-figure1.png' | relative_url }}" alt="Figure 1 overview of the ST-Audio Encoder and ST-AudioLM">
+                </a>
                 <span class="venue-badge">EMNLP</span>
               </div>
               <div class="publication-details">
@@ -91,7 +89,9 @@ redirect_from:
             <div class="tagline-row"><span class="pub-tagline">🔎 Can audio-visual dynamics identify the tokens an Omni-LLM should preserve?</span></div>
             <div class="publication-row">
               <div class="publication-media">
-                <img src="{{ '/images/publications/a-pack-teaser.png' | relative_url }}" alt="A-PACK deferred audio pruning and local audio-visual dynamics overview">
+                <a class="publication-image-link" href="https://arxiv.org/abs/2608.08794" target="_blank" rel="noopener noreferrer" aria-label="Open Deferred Audio Pruning with Local Audio-Visual Dynamics for Omni-LLMs on arXiv">
+                  <img src="{{ '/images/publications/a-pack-teaser.png' | relative_url }}" alt="A-PACK deferred audio pruning and local audio-visual dynamics overview" loading="lazy">
+                </a>
                 <span class="venue-badge">arXiv</span>
               </div>
               <div class="publication-details">
@@ -110,7 +110,9 @@ redirect_from:
             <div class="tagline-row"><span class="pub-tagline">🔎 Can reusable multimodal memory retrieve precise moments without training?</span></div>
             <div class="publication-row">
               <div class="publication-media">
-                <img src="{{ '/images/hmma-kdd2026-workshop.png' | relative_url }}" alt="Hierarchical Multimodal Memory architecture overview">
+                <a class="publication-image-link" href="{{ '/files/publications/hierarchical-multimodal-memory-kdd2026.pdf' | relative_url }}" aria-label="Open Hierarchical Multimodal Memory for Training-Free Video Moment Retrieval PDF">
+                  <img src="{{ '/images/hmma-kdd2026-workshop.png' | relative_url }}" alt="Hierarchical Multimodal Memory architecture overview" loading="lazy">
+                </a>
                 <span class="venue-badge">KDD Workshop</span>
               </div>
               <div class="publication-details">
