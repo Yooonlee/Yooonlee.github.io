@@ -2,7 +2,7 @@
 
 ## Goal
 
-Redesign Kyeongyoon Lee's GitHub Pages homepage so it feels as calm and readable as the reference site at `https://daeunni.github.io/`, while retaining the site's existing content and using a blue visual identity instead of pink.
+Redesign Kyeongyoon Lee's GitHub Pages homepage as a close structural and visual adaptation of the reference site at `https://daeunni.github.io/`. Retain the site's existing content and change the reference site's pink accent system to blue.
 
 The redesign is successful when the page presents the same research, publication, background, and award information in a noticeably smaller and less decorative layout, and when the new EMNLP 2026 paper is clearly visible in both News and Publications.
 
@@ -10,7 +10,8 @@ The redesign is successful when the page presents the same research, publication
 
 ### Included
 
-- Replace the current oversized hero and card-heavy homepage with a compact two-column academic profile layout.
+- Replace the current oversized hero and card-heavy homepage with the reference site's compact fixed-profile/two-column academic layout.
+- Match the reference site's typography scale, 960px desktop wrapper, 232px profile column, 670px content column, section spacing, About card, News timeline, and publication-row treatment as closely as the existing Jekyll project permits.
 - Preserve the existing About, Research, News, Publications, Education, Experience, and Honors content.
 - Add the EMNLP 2026 Main Conference paper:
   - **Spatio-Temporal Audio Language Modeling for Dynamic Sound Sources**
@@ -31,12 +32,12 @@ The redesign is successful when the page presents the same research, publication
 
 The homepage uses a centered container with two primary columns on desktop:
 
-1. **Profile rail**
+1. **Profile rail matching the reference header**
    - Compact portrait
    - Name and current role
    - Location
    - Email and GitHub links
-   - Small navigation links to the main sections
+   - Compact social/contact icons
 
 2. **Content column**
    - About
@@ -46,9 +47,9 @@ The homepage uses a centered container with two primary columns on desktop:
    - Background, including Education and Experience
    - Honors and Awards
 
-On narrow screens, the profile rail becomes a horizontal profile header and then stacks above the content. Navigation remains available without requiring a custom mobile interaction.
+On narrow screens, the profile rail becomes a centered static profile header and stacks above the content, following the reference site's responsive behavior.
 
-The existing site-wide masthead is removed from the homepage presentation because it duplicates the profile rail and consumes vertical space. The default layout remains reusable, but the homepage receives an explicit class or front-matter flag so layout changes stay scoped to this page.
+The existing site-wide masthead is removed from the homepage presentation because the reference site has no masthead and uses the profile header as its identity and navigation surface. The default layout remains reusable, but the homepage receives an explicit class and front-matter flag so layout changes stay scoped to this page.
 
 ## Visual Design
 
@@ -56,47 +57,47 @@ The existing site-wide masthead is removed from the homepage presentation becaus
 
 - Academic, friendly, and restrained
 - White or very pale blue page background
-- Flat content hierarchy rather than elevated cards
+- The same restrained cards, hover states, timeline, and publication rows used by the reference site
 - Thin rules and spacing to separate sections
 - Minimal ornamentation and no decorative orbit graphics
 
 ### Color System
 
-- Primary blue: approximately `#2563eb`
-- Deep navy text: approximately `#172033`
-- Muted text: approximately `#64748b`
-- Pale blue surface: approximately `#eff6ff`
-- Border: approximately `#dbe5f1`
+- Primary blue replacing the reference pink: `#4a7dc0`
+- Deep blue heading color replacing the reference dark pink: `#285a9f`
+- Secondary cyan-blue replacing the reference green: `#62b6cb`
+- Muted text: `#888888`
+- Pale blue highlight: `#eaf2ff`
+- Pale cyan companion surface: `#edf9fb`
+- Border: `#e5e5e5`
 - Background: white or near-white
 
 Blue is used sparingly for links, labels, section accents, and venue badges. Body copy stays dark for readability.
 
 ### Typography and Spacing
 
-- Use the existing system sans-serif stack to avoid a new font dependency.
-- Reduce the current headline scale substantially; the name should be prominent but not hero-sized.
-- Use compact section headings, approximately 1.25–1.5rem.
-- Keep body copy around 0.95–1rem with comfortable line height.
-- Use consistent vertical section spacing of roughly 2–3rem rather than large panels.
-- Keep the overall content width near 960px, with an approximately 220px profile rail and a 680px content column.
+- Use Raleway, matching the reference site's font choice, with a sans-serif fallback.
+- Match the reference scale: 14px body text, 25px profile name, and section headings at approximately 130% of body size.
+- Match the reference wrapper dimensions: 960px overall, 232px profile header, and 670px content section.
+- Use the reference site's compact 20px paragraph rhythm and 28px section dividers.
 
 ## Component Design
 
 ### Profile Rail
 
-The portrait is shown at a moderate size with a simple rounded treatment. Name, role, location, and contact links are arranged vertically. The rail becomes sticky on wide screens but remains in normal document flow on smaller screens.
+The portrait is shown as a centered circle, matching the reference proportions. Name, role, location, email, and social/contact icons are arranged vertically. The rail is fixed on wide screens and returns to normal document flow at 960px and below.
 
 ### Research Direction
 
-The three current research areas remain, presented as a compact sentence or short list rather than separate cards.
+The three current research areas remain as a compact bulleted list with pale-blue text highlights, matching the reference Research Direction section.
 
 ### News
 
-News is a dense chronological list. Each row uses a small date column and a concise description. The new EMNLP 2026 Main Conference acceptance appears above the existing KDD 2026 Workshop item.
+News uses the reference site's vertical gradient timeline, year marker, month labels, and compact entries. The new EMNLP 2026 Main Conference acceptance appears above the existing KDD 2026 Workshop item.
 
 ### Publications
 
-Publications use flat media rows separated by whitespace or thin borders. Existing teaser images remain where available. The new EMNLP paper may use a compact blue placeholder panel or a text-first row because no official teaser asset is available locally.
+Publications use the reference site's bibliography list, optional question-style tagline, teaser column, venue badge, title, authors, periodical line, and outlined link buttons. Existing teaser images remain where available. The new EMNLP paper uses a restrained blue typographic placeholder in the same teaser dimensions because no official teaser asset is available locally.
 
 Each publication shows:
 
@@ -110,7 +111,7 @@ The domestic KSC 2023 publication remains visible in a smaller text-only row.
 
 ### Background and Honors
 
-Education and Experience remain grouped under Background. Entries use small date labels, short titles, and one supporting line. Honors become a simple list rather than a large colored panel.
+Education, Experience, and Honors use the reference site's plain headings and compact bulleted lists rather than cards or a colored panel.
 
 ## Accessibility and Interaction
 
@@ -144,4 +145,3 @@ Generated `_site` output is not treated as source and will not be manually edite
    - all retained sections are present.
 4. Confirm internal anchor navigation and external paper/contact links resolve to the intended targets.
 5. Review the final diff to ensure changes remain limited to the homepage redesign and publication addition.
-
